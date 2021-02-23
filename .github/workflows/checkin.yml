@@ -3,7 +3,7 @@ name: Genshin MYS Checkin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 16 * * *'
+    - cron: '32 16 * * *'
 
 jobs:
   checkin:
